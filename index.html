@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CORONAVIRUSAPI</title>
+    <!-- <link rel="stylesheet" href="./bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="covid">
+      <div class="container">
+        <h1>C<span>&circledast;</span>VID_19</h1>
+        <div class="cards">
+          <div class="card">
+            <h1 style="color: steelblue">0</h1>
+            <p>Aniqlanganlar soni</p>
+            <h2><span>07.12.2020</span> holatiga kora</h2>
+          </div>
+          <div class="card">
+            <h1 style="color: green">0</h1>
+            <p>Tuzalganlar soni</p>
+            <h2><span>07.12.2020</span> holatiga kora</h2>
+          </div>
+          <div class="card">
+            <h1 style="color: red">0</h1>
+            <p>O'lganlar soni</p>
+            <h2><span>07.12.2020</span> holatiga kora</h2>
+          </div>
+        </div>
+        <label for="form-control">Davlat Nomini Kiriting</label>
+        <div class="box">
+          <select name="countriy" class="flex-1" id="select">
+            <option value="all" selected>All</option>
+          </select>
+        </div>
+        <div class="chart-wrapper">
+          <div id="chart"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./countUp.min.js"></script>
+    <script src="./apexcharts.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
